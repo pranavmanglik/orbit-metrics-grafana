@@ -4,7 +4,7 @@ Orbit Metrics Grafana is a native Grafana App plugin that bundles dashboards for
 
 ## Requirements
 
-- Grafana 13.1 or later.
+- Grafana 13.2 or later.
 - A Prometheus data source that scrapes an Orbit application's `/metrics` endpoint.
 - The Orbit application has `orbit-metrics-prometheus` installed and registered.
 
@@ -39,6 +39,6 @@ See [architecture](docs/architecture/overview.md), [operations](docs/operations/
 
 ## Status
 
-Pre-alpha and not yet published or signed. Hosted Grafana compatibility checks, signed artifact provenance, and deployment validation remain release gates.
+alpha and not yet published or signed. Hosted Grafana compatibility checks, signed artifact provenance, and deployment validation remain release gates.
 
 Licensed under Apache-2.0.

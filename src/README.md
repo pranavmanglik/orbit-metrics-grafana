@@ -35,10 +35,10 @@ npm run server
 
 The development container enables anonymous access and unsigned plugin loading for local iteration only. Do not use those settings in a production deployment. Configure a Prometheus data source separately; the plugin does not provision one or install Prometheus.
 
-See [architecture](docs/architecture/overview.md), [operations](docs/operations/README.md), [security](docs/security/overview.md), and [development](docs/development/README.md).
+See [architecture](../docs/architecture/overview.md), [operations](../docs/operations/README.md), [security](../docs/security/overview.md), and [development](../docs/development/README.md).
 
 ## Status
 
-Pre-alpha and not yet published or signed. Hosted Grafana compatibility checks, signed artifact provenance, and deployment validation remain release gates.
+Alpha review candidate; not yet published or signed. Hosted Grafana compatibility checks, signed artifact provenance, and deployment validation remain release gates.
 
 Licensed under Apache-2.0.
